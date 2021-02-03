@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="AndrewJohnRogers.com.MasterPages.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <a href="#" id="logo"></a>
+
+        <nav>
+            <a href="#" id="menu-icon"></a>
+
+            <ul>
+                <li><a href="../index.aspx" class="current">Home</a></li>
+                <li><a href="../photo.aspx">Photography</a></li>
+                <li><a href="../app.aspx">Apps</a></li>
+                <li><a href="../contact.aspx">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <form id="form1" runat="server">
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
