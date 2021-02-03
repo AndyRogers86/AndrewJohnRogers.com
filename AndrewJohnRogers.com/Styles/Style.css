@@ -57,12 +57,12 @@ a {
     font-weight: bold;
 }
 
-    a:hover {
-        color: #444;
-    }
+a:hover {
+    color: #444;
+}
 
 img {
-    width: 100%;
+    /*width: 100%;*/
 }
 
 header {
@@ -118,7 +118,7 @@ li {
 
 section {
     margin: 80px auto 40px;
-    max-width: 980px;
+    max-width: calc(100% - 120px);
     position: relative;
     padding: 20px
 }
@@ -135,9 +135,58 @@ p {
     margin-bottom: 20px;
 }
 
+.grid {
+    max-width: 1200px;
+}
+
+    /* clearfix */
+    .grid:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+/* ---- grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+    width: 20%;
+}
+
+.grid-item {
+    height: 120px;
+    float: left;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.grid-item--width2 {
+    width: 40%;
+}
+
+.grid-item--width3 {
+    width: 60%;
+}
+
+.grid-item--height2 {
+    height: 200px;
+}
+
+.grid-item--height3 {
+    height: 260px;
+}
+
+.grid-item--height4 {
+    height: 360px;
+}
+
+img{
+    max-width:100%;
+    max-height:100%;
+}
+
 /*MEDIA QUERY*/
 @media only screen and (max-width : 850px) {
-
     header {
         position: absolute;
     }

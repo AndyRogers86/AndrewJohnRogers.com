@@ -35,5 +35,7 @@
             </div>
         </form>
     </section>
+
+    <script src="../lib/masonry/masonry.pkgd.min.js"></script>
 </body>
 </html>

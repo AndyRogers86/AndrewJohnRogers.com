@@ -107,7 +107,10 @@
     <Content Include="img\photo\untitled photo %2833%29.jpg" />
     <Content Include="img\photo\untitled photo %2837%29.jpg" />
     <Content Include="index.aspx" />
+    <Content Include="lib\masonry\masonry.pkgd.js" />
+    <Content Include="lib\masonry\masonry.pkgd.min.js" />
     <Content Include="photo.aspx" />
+    <Content Include="Scripts\script.js" />
     <Content Include="Styles\Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -155,6 +158,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPages\Main.Master" />
+    <Content Include="libman.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -167,7 +171,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
