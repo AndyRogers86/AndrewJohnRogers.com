@@ -83,6 +83,7 @@
     <Content Include="app.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="img\App-Store-Icon.png" />
     <Content Include="img\app\app1.png" />
     <Content Include="img\app\app2.png" />
     <Content Include="img\app\app3.png" />
@@ -110,6 +111,7 @@
     <Content Include="img\photo\untitled photo %2820%29.jpg" />
     <Content Include="img\photo\untitled photo %2833%29.jpg" />
     <Content Include="img\photo\untitled photo %2837%29.jpg" />
+    <Content Include="img\Play-Store-Icon.png" />
     <Content Include="img\portrait.jpg" />
     <Content Include="index.aspx" />
     <Content Include="photo.aspx" />

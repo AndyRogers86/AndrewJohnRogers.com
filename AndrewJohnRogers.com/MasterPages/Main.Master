@@ -38,6 +38,12 @@
         <nav>
             <ul>
                 <li>
+                    <a href="https://play.google.com/store/apps/developer?id=Andrew+Rogers&hl=en" target="_blank"><img src="../img/play-store-icon.png" /></a>
+                </li>
+                <li>
+                    <a href="https://apps.apple.com/us/developer/andrew-rogers/id1496551430" target="_blank"><img src="../img/app-store-icon.png" /></a>
+                </li>
+                <li>
                     <a href="https://github.com/AndyRogers86" target="_blank"><img src="../img/GitHub-Mark-64px.png" /></a>
                 </li>
                 <li>
