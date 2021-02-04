@@ -1,9 +1,5 @@
 {
   "version": "1.0",
   "defaultProvider": "cdnjs",
-  "libraries": [
-    {
-      "library": "masonry@4.2.2",
-      "destination": "lib/masonry/"}
-  ]
+  "libraries": []
 }

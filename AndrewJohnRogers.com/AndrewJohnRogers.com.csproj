@@ -88,12 +88,15 @@
     <Content Include="img\app\app3.png" />
     <Content Include="img\app\app4.png" />
     <Content Include="img\app\app5.png" />
+    <Content Include="img\GitHub-Mark-64px.png" />
+    <Content Include="img\insta.png" />
     <Content Include="img\menu-icon.png" />
     <Content Include="img\photo\000068430002.jpg" />
     <Content Include="img\photo\000068440003.jpg" />
     <Content Include="img\photo\000068450037.jpg" />
-    <Content Include="img\photo\000095770024 2.jpg.png" />
+    <Content Include="img\photo\000095770024.png" />
     <Content Include="img\photo\000095780019.jpg" />
+    <Content Include="img\photo\000096990004.jpg" />
     <Content Include="img\photo\000096990007.jpg" />
     <Content Include="img\photo\000097000008.jpg" />
     <Content Include="img\photo\10.jpg" />
@@ -104,11 +107,11 @@
     <Content Include="img\photo\Untitled %288%29.jpg" />
     <Content Include="img\photo\untitled photo %2813%29.jpg" />
     <Content Include="img\photo\untitled photo %2814%29.jpg" />
+    <Content Include="img\photo\untitled photo %2820%29.jpg" />
     <Content Include="img\photo\untitled photo %2833%29.jpg" />
     <Content Include="img\photo\untitled photo %2837%29.jpg" />
+    <Content Include="img\portrait.jpg" />
     <Content Include="index.aspx" />
-    <Content Include="lib\masonry\masonry.pkgd.js" />
-    <Content Include="lib\masonry\masonry.pkgd.min.js" />
     <Content Include="photo.aspx" />
     <Content Include="Scripts\script.js" />
     <Content Include="Styles\Style.css" />
@@ -170,6 +173,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
+    <Folder Include="lib\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

@@ -76,17 +76,17 @@ header {
 }
 
 #logo {
-    margin: 20px;
+    padding: 30px 60px;
     float: left;
-    width: 400px;
-    height: 40px;
-    background: url(../img/logo.png) no-repeat center;
+    /*background: url(../img/logo.png) no-repeat center;*/
     display: block;
+    color: black;
+    font-size: xx-large;
 }
 
 nav {
     float: right;
-    padding: 20px;
+    padding: 20px 50px;
 }
 
 #menu-icon {
@@ -98,8 +98,12 @@ nav {
 }
 
 a:hover#menu-icon {
-    background-color: #444;
+    background-color: black;
     border-radius: 4px 4px 0 0;
+}
+
+a {
+    color:black;
 }
 
 ul {
@@ -112,20 +116,48 @@ li {
     padding: 10px
 }
 
-.current {
-    color: #2262AD;
-}
-
 section {
-    margin: 80px auto 40px;
+    margin: 100px auto 40px;
     max-width: calc(100% - 120px);
     position: relative;
     padding: 20px
 }
 
+section.doc {
+    max-width: 65%;
+}
+
+.doc > p {
+    clear:both;
+    margin:10px;
+}
+
+.doc > p > img {
+    width:250px;
+    margin:0px 10px;
+}
+
+section.contact {
+    max-width: 65%;
+}
+
+.contact > div > input, textarea {
+    width: calc(100% - 20px);
+    margin:10px 0px;
+    padding:10px;
+}
+
+.contact > div:first-child {
+    padding: 30px 0px;
+}
+
+.contact > input {
+    float:right;
+}
+
 h1 {
     font-size: 2em;
-    color: #2262AD;
+    color: black;
     line-height: 1.15em;
     margin: 20px 0;
 }
@@ -136,48 +168,29 @@ p {
 }
 
 .grid {
-    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 33% auto;
+    grid-gap: 50px;
 }
 
-    /* clearfix */
-    .grid:after {
-        content: '';
-        display: block;
-        clear: both;
-    }
+.gridApp {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+}
 
-/* ---- grid-item ---- */
+.gridPhoto {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
 
-.grid-sizer,
 .grid-item {
-    width: 20%;
+    
 }
 
-.grid-item {
-    height: 120px;
-    float: left;
-    border: 0px;
-    border-radius: 5px;
-}
-
-.grid-item--width2 {
-    width: 40%;
-}
-
-.grid-item--width3 {
-    width: 60%;
-}
-
-.grid-item--height2 {
-    height: 200px;
-}
-
-.grid-item--height3 {
-    height: 260px;
-}
-
-.grid-item--height4 {
-    height: 360px;
+.grid-item--2-span {
+    grid-column: 1 / span 2;
 }
 
 img{
@@ -216,4 +229,26 @@ img{
 
     nav:hover ul {
         display: block;
+    }
+
+    section.doc, section.contact {
+        max-width: 95%;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+
+    .gridApp {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+
+    .gridPhoto {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
     }

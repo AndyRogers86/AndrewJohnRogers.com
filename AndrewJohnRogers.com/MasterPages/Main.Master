@@ -13,28 +13,39 @@
 </head>
 <body>
     <header>
-        <a href="#" id="logo"></a>
+        <a href="../index.aspx" id="logo">AndrewJohnRogers.com</a>
 
         <nav>
             <a href="#" id="menu-icon"></a>
 
             <ul>
-                <li><a href="../index.aspx" class="current">Home</a></li>
-                <li><a href="../photo.aspx">Photography</a></li>
+                <li><a href="../index.aspx">Home</a></li>
                 <li><a href="../app.aspx">Apps</a></li>
+                <li><a href="../photo.aspx">Photography</a></li>
                 <li><a href="../contact.aspx">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
-        <form id="form1" runat="server">
-            <div>
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
-            </div>
-        </form>
-    </section>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://github.com/AndyRogers86" target="_blank"><img src="../img/GitHub-Mark-64px.png" /></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/andyr.uk/" target="_blank"><img src="../img/insta.png" /></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 
     <script src="../lib/masonry/masonry.pkgd.min.js"></script>
 </body>
