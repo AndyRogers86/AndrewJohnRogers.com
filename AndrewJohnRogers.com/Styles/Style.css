@@ -177,6 +177,7 @@ p {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 50px;
+    text-align:justify;
 }
 
     /*.gridApp > div > img {
@@ -265,7 +266,7 @@ img{
         padding: 30px 50px;
     }
 
-    nav ul, nav:active ul {
+    header > nav ul, nav:active ul {
         display: none;
         position: absolute;
         padding: 20px;
@@ -286,6 +287,17 @@ img{
 
     nav:hover ul {
         display: block;
+    }
+
+    footer > nav > ul {
+        list-style: none;
+    }
+
+    footer > nav > ul> li {
+        display: inline-block;
+        float: left;
+        padding: 10px;
+        width:initial;
     }
 
     .grid {
