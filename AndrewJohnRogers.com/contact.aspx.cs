@@ -64,10 +64,16 @@ namespace AndrewJohnRogers.com
                     mSmtpClient.Credentials = smptUserInfo;
                 }
 
+                mSmtpClient.EnableSsl = true;
+
                 mSmtpClient.Send(emailToSend);
 
                 btnSend.Enabled = false;
                 lblEmailResponse.Text = "Email sent";
+            }
+            catch(SmtpException exc)
+            {
+                lblEmailResponse.Text = "Email error - " + exc.Message;
             }
             catch (Exception exc)
             {

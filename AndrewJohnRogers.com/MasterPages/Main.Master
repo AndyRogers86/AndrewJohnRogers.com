@@ -13,16 +13,28 @@
 </head>
 <body>
     <header>
-        <a href="../index.aspx" id="logo">AndrewJohnRogers.com</a>
+        <asp:HyperLink ID="logo" runat="server" ClientIDMode="Static" NavigateUrl="~/index.aspx">
+            <h1>
+                AndrewJohnRogers.com
+            </h1>
+        </asp:HyperLink>
 
         <nav>
             <a href="#" id="menu-icon"></a>
 
             <ul>
-                <li><a href="../index.aspx">Home</a></li>
-                <li><a href="../app.aspx">Apps</a></li>
-                <li><a href="../photo.aspx">Photography</a></li>
-                <li><a href="../contact.aspx">Contact</a></li>
+                <li>
+                    <asp:HyperLink ID="hypHome" runat="server" NavigateUrl="~/index.aspx">Home</asp:HyperLink>
+                </li>
+                <li>
+                    <asp:HyperLink ID="hypApps" runat="server" NavigateUrl="~/app.aspx">Apps</asp:HyperLink>
+                </li>
+                <li>
+                    <asp:HyperLink ID="hypPhotos" runat="server" NavigateUrl="~/photo.aspx">Photography</asp:HyperLink>
+                </li>
+                <li>
+                    <asp:HyperLink ID="hypContact" runat="server" NavigateUrl="~/contact.aspx">Contact</asp:HyperLink>
+                </li>
             </ul>
         </nav>
     </header>
@@ -38,21 +50,27 @@
         <nav>
             <ul>
                 <li>
-                    <a href="https://play.google.com/store/apps/developer?id=Andrew+Rogers&hl=en" target="_blank"><img src="../img/play-store-icon.png" /></a>
+                    <asp:HyperLink ID="hypPlayStore" runat="server" NavigateUrl="https://play.google.com/store/apps/developer?id=Andrew+Rogers&hl=en" Target="_blank" ToolTip="Google Play Store Developer Page">
+                        <asp:Image ID="imgPlayStore" runat="server" ImageUrl="~/img/Play-Store-Icon.png" />
+                    </asp:HyperLink>
                 </li>
                 <li>
-                    <a href="https://apps.apple.com/us/developer/andrew-rogers/id1496551430" target="_blank"><img src="../img/app-store-icon.png" /></a>
+                    <asp:HyperLink ID="hypAppStore" runat="server" NavigateUrl="https://apps.apple.com/us/developer/andrew-rogers/id1496551430" Target="_blank" ToolTip="Apple App Store Developer Page">
+                        <asp:Image ID="imgAppStore" runat="server" ImageUrl="~/img/App-Store-Icon.png" />
+                    </asp:HyperLink>
                 </li>
                 <li>
-                    <a href="https://github.com/AndyRogers86" target="_blank"><img src="../img/GitHub-Mark-64px.png" /></a>
+                    <asp:HyperLink ID="hypGitHub" runat="server" NavigateUrl="https://github.com/AndyRogers86" Target="_blank" ToolTip="Github">
+                        <asp:Image ID="imgGitHub" runat="server" ImageUrl="~/img/GitHub-Mark-64px.png" />
+                    </asp:HyperLink>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/andyr.uk/" target="_blank"><img src="../img/insta.png" /></a>
+                    <asp:HyperLink ID="hypInsta" runat="server" NavigateUrl="https://www.instagram.com/andyr.uk/" Target="_blank" ToolTip="Instagram">
+                        <asp:Image ID="imgInsta" runat="server" ImageUrl="~/img/insta.png" />
+                    </asp:HyperLink>
                 </li>
             </ul>
         </nav>
     </footer>
-
-    <script src="../lib/masonry/masonry.pkgd.min.js"></script>
 </body>
 </html>

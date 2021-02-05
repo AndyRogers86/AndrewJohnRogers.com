@@ -11,7 +11,13 @@
 
             <div class="grid-item">
                 <h1>
-                    Full Stack .Net Developer. Photographer. Watch Collector
+                    Professional Full Stack .Net Developer
+                </h1>
+                <h1>
+                    Amateur Photographer
+                </h1>
+                <h1>
+                    Watch Collector
                 </h1>
             </div>
         </div>        
