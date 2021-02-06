@@ -37,17 +37,15 @@
 
             <div class="grid-item--4-span">
                 <p>            
-                    <asp:Label ID="lblPolerouterAppDesc1" runat="server" Text="The Universal Geneve Polerouter family of vintage wristwatches have become a favourite amongst collectors. Unfortunately the lack of knowledge surrounding the many different models and their specifications, has hindered the proper repair and restoration of many examples."></asp:Label>
+                    <asp:Label ID="lblPolerouterAppDesc1" runat="server" Text="The idea for this app came to me when I was going around a watch fair. I had found a watch I liked by I was unable to authenticate it as I had no data connection."></asp:Label>
                 </p>
 
                 <p>
-                    <asp:Label ID="lblPolerouterAppDesc2" runat="server" Text="UniversalGenevePolerouter.com was set up by fellow collector "></asp:Label>
-                    <asp:HyperLink ID="hypHamblar" runat="server" NavigateUrl="https://www.instagram.com/hamblar/">Adam Hambly</asp:HyperLink>
-                    <asp:Label ID="lblPolerouterAppDesc3" runat="server" Text=". However, as it is a website it is only accessable when a mobile device has a WiFi or mobile data connection. I was finding this be be a bit of an issue when I was searching for watches at watch fairs or remote antique shops as I was unable to evaluate a watches authenticity."></asp:Label>
+                    <asp:Label ID="lblPolerouterAppDesc2" runat="server" Text="The Universal Geneve Polerouter app contains a local database (once it has done an initial sync) of all of the known, correct models of this wonderful line of watches. This allows collectors to check a watch even if they don't have an internet connection."></asp:Label>
                 </p>
 
                 <p>
-                    <asp:Label ID="lblPolerouterAppDesc4" runat="server" Text="Using the data from Adam's website I created a mobile app that will work offline (once synced up) and allow collectors to view the watches when they have no data connection. The app is synced from a .Net Web API service and is built with Xamarin Forms."></asp:Label>
+                    <asp:Label ID="lblPolerouterAppDesc4" runat="server" Text="The app connects to a .Net Web API service to do its syncing, is written in Xamarin Forms and is available on both Android and iOS."></asp:Label>
                 </p>
             </div>
         </div>

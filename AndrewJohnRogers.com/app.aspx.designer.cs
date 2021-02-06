@@ -69,24 +69,6 @@ namespace AndrewJohnRogers.com
         protected global::System.Web.UI.WebControls.Label lblPolerouterAppDesc2;
 
         /// <summary>
-        /// hypHamblar control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hypHamblar;
-
-        /// <summary>
-        /// lblPolerouterAppDesc3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPolerouterAppDesc3;
-
-        /// <summary>
         /// lblPolerouterAppDesc4 control.
         /// </summary>
         /// <remarks>
