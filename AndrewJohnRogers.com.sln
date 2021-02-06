@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndrewJohnRogers.com", "AndrewJohnRogers.com\AndrewJohnRogers.com.csproj", "{7609B4B5-42B6-4346-8781-9A20019D0234}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup - AndrewJohnRogers.com", "Setup - AndrewJohnRogers.com\Setup - AndrewJohnRogers.com.vdproj", "{AEF3C9CC-586A-44A7-8CE4-5BB95E82D7FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setups", "Setups", "{F9E868AE-6991-4AFD-B037-ABE11E1D2C35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,14 @@ Global
 		{7609B4B5-42B6-4346-8781-9A20019D0234}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7609B4B5-42B6-4346-8781-9A20019D0234}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7609B4B5-42B6-4346-8781-9A20019D0234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF3C9CC-586A-44A7-8CE4-5BB95E82D7FD}.Debug|Any CPU.ActiveCfg = Debug
+		{AEF3C9CC-586A-44A7-8CE4-5BB95E82D7FD}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEF3C9CC-586A-44A7-8CE4-5BB95E82D7FD} = {F9E868AE-6991-4AFD-B037-ABE11E1D2C35}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B3ECE011-39D0-4E5E-B44B-E5AD1590FA2D}
