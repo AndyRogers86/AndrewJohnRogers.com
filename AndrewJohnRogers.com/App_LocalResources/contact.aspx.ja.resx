@@ -123,6 +123,24 @@
   <data name="btnSendResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="Contact.Error" xml:space="preserve">
+    <value>エラー-</value>
+  </data>
+  <data name="Contact.NoEmail" xml:space="preserve">
+    <value>メールアドレスを入力してください</value>
+  </data>
+  <data name="Contact.NoMessage" xml:space="preserve">
+    <value>メッセージを入力してください</value>
+  </data>
+  <data name="Contact.NoName" xml:space="preserve">
+    <value>名前を入力してください</value>
+  </data>
+  <data name="Contact.NoSubject" xml:space="preserve">
+    <value>メールの件名を入力してください</value>
+  </data>
+  <data name="Contact.Sent" xml:space="preserve">
+    <value>送信された電子メール</value>
+  </data>
   <data name="lblBlurbResource1.Text" xml:space="preserve">
     <value>私に連絡したい場合は、以下のフォームに記入してください</value>
   </data>

@@ -123,6 +123,24 @@
   <data name="btnSendResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="Contact.Error" xml:space="preserve">
+    <value>Fout -</value>
+  </data>
+  <data name="Contact.NoEmail" xml:space="preserve">
+    <value>Vul alstublieft uw e-mail adres in</value>
+  </data>
+  <data name="Contact.NoMessage" xml:space="preserve">
+    <value>Voer een bericht in</value>
+  </data>
+  <data name="Contact.NoName" xml:space="preserve">
+    <value>Voer uw naam in</value>
+  </data>
+  <data name="Contact.NoSubject" xml:space="preserve">
+    <value>Voer een e-mailonderwerp in</value>
+  </data>
+  <data name="Contact.Sent" xml:space="preserve">
+    <value>Email verzonden</value>
+  </data>
   <data name="lblBlurbResource1.Text" xml:space="preserve">
     <value>Als u contact met mij wilt opnemen, vul dan onderstaand formulier in</value>
   </data>

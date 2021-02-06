@@ -80,8 +80,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app.aspx" />
-    <Content Include="contact.aspx" />
+    <Content Include="App.aspx" />
+    <Content Include="Contact.aspx" />
     <Content Include="Global.asax" />
     <Content Include="img\App-Store-Icon.png" />
     <Content Include="img\app\app1.png" />
@@ -114,38 +114,41 @@
     <Content Include="img\photo\untitled photo %2837%29.jpg" />
     <Content Include="img\Play-Store-Icon.png" />
     <Content Include="img\portrait.jpg" />
-    <Content Include="index.aspx" />
-    <Content Include="photo.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="Photo.aspx" />
     <Content Include="Scripts\script.js" />
     <Content Include="Styles\Reset.css" />
     <Content Include="Styles\Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="app.aspx.cs">
-      <DependentUpon>app.aspx</DependentUpon>
+    <Compile Include="App.aspx.cs">
+      <DependentUpon>App.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="app.aspx.designer.cs">
-      <DependentUpon>app.aspx</DependentUpon>
+    <Compile Include="App.aspx.designer.cs">
+      <DependentUpon>App.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="contact.aspx.cs">
-      <DependentUpon>contact.aspx</DependentUpon>
+    <Compile Include="BasePages\BasePage.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="contact.aspx.designer.cs">
-      <DependentUpon>contact.aspx</DependentUpon>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="index.aspx.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="index.aspx.designer.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPages\Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>
@@ -154,12 +157,12 @@
     <Compile Include="MasterPages\Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
-    <Compile Include="photo.aspx.cs">
-      <DependentUpon>photo.aspx</DependentUpon>
+    <Compile Include="Photo.aspx.cs">
+      <DependentUpon>Photo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="photo.aspx.designer.cs">
-      <DependentUpon>photo.aspx</DependentUpon>
+    <Compile Include="Photo.aspx.designer.cs">
+      <DependentUpon>Photo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Andrew John Rogers - Contact" Language="C#" MasterPageFile="~/MasterPages/Main.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="AndrewJohnRogers.com.contact" culture="auto" meta:resourcekey="PageResource1" uiculture="auto" %>
+﻿<%@ Page Title="Andrew John Rogers - Contact" Language="C#" MasterPageFile="~/MasterPages/Main.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="AndrewJohnRogers.com.Contact" culture="auto" meta:resourcekey="PageResource1" uiculture="auto" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

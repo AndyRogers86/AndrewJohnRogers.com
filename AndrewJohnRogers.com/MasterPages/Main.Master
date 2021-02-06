@@ -48,27 +48,23 @@
             <ul>
                 <li>
                     <asp:HyperLink ID="hypPlayStore" runat="server" NavigateUrl="https://play.google.com/store/apps/developer?id=Andrew+Rogers&hl=en" Target="_blank" ToolTip="Google Play Store Developer Page" meta:resourcekey="hypPlayStoreResource1">
-                        <asp:Image ID="imgPlayStore" runat="server" ImageUrl="~/img/Play-Store-Icon.png" meta:resourcekey="imgPlayStoreResource1" />
-                    
-</asp:HyperLink>
+                        <asp:Image ID="imgPlayStore" runat="server" ImageUrl="~/img/Play-Store-Icon.png" meta:resourcekey="imgPlayStoreResource1" />                    
+                    </asp:HyperLink>
                 </li>
                 <li>
                     <asp:HyperLink ID="hypAppStore" runat="server" NavigateUrl="https://apps.apple.com/us/developer/andrew-rogers/id1496551430" Target="_blank" ToolTip="Apple App Store Developer Page" meta:resourcekey="hypAppStoreResource1">
-                        <asp:Image ID="imgAppStore" runat="server" ImageUrl="~/img/App-Store-Icon.png" meta:resourcekey="imgAppStoreResource1" />
-                    
-</asp:HyperLink>
+                        <asp:Image ID="imgAppStore" runat="server" ImageUrl="~/img/App-Store-Icon.png" meta:resourcekey="imgAppStoreResource1" />                    
+                    </asp:HyperLink>
                 </li>
                 <li>
                     <asp:HyperLink ID="hypGitHub" runat="server" NavigateUrl="https://github.com/AndyRogers86" Target="_blank" ToolTip="Github" meta:resourcekey="hypGitHubResource1">
-                        <asp:Image ID="imgGitHub" runat="server" ImageUrl="~/img/GitHub-Mark-64px.png" meta:resourcekey="imgGitHubResource1" />
-                    
-</asp:HyperLink>
+                        <asp:Image ID="imgGitHub" runat="server" ImageUrl="~/img/GitHub-Mark-64px.png" meta:resourcekey="imgGitHubResource1" />                    
+                    </asp:HyperLink>
                 </li>
                 <li>
                     <asp:HyperLink ID="hypInsta" runat="server" NavigateUrl="https://www.instagram.com/andyr.uk/" Target="_blank" ToolTip="Instagram" meta:resourcekey="hypInstaResource1">
-                        <asp:Image ID="imgInsta" runat="server" ImageUrl="~/img/insta.png" meta:resourcekey="imgInstaResource1" />
-                    
-</asp:HyperLink>
+                        <asp:Image ID="imgInsta" runat="server" ImageUrl="~/img/insta.png" meta:resourcekey="imgInstaResource1" />                    
+                    </asp:HyperLink>
                 </li>
             </ul>
         </nav>

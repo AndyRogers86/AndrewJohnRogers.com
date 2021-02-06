@@ -10,7 +10,7 @@
 
 namespace AndrewJohnRogers.com
 {
-    public partial class photo
+    public partial class Photo
     {
     }
 }

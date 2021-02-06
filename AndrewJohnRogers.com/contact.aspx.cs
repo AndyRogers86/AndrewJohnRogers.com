@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AndrewJohnRogers.com.BasePages;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
@@ -9,7 +10,7 @@ using System.Web.UI.WebControls;
 
 namespace AndrewJohnRogers.com
 {
-    public partial class contact : System.Web.UI.Page
+    public partial class Contact : BasePage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -22,22 +23,22 @@ namespace AndrewJohnRogers.com
             {
                 if (txtName.Text == string.Empty)
                 {
-                    throw new Exception("Please enter your name");
+                    throw new Exception(ResourceText("Contact.NoName"));
                 }
 
                 if (txtEmail.Text == string.Empty)
                 {
-                    throw new Exception("Please enter your email");
+                    throw new Exception(ResourceText("Contact.NoEmail"));
                 }
 
                 if (txtSubject.Text == string.Empty)
                 {
-                    throw new Exception("Please enter a subject");
+                    throw new Exception(ResourceText("Contact.NoSubject"));
                 }
 
                 if (txtMessage.Text == string.Empty)
                 {
-                    throw new Exception("Please enter your message");
+                    throw new Exception(ResourceText("Contact.NoMessage"));
                 }
 
                 MailMessage emailToSend = new MailMessage();
@@ -69,15 +70,15 @@ namespace AndrewJohnRogers.com
                 mSmtpClient.Send(emailToSend);
 
                 btnSend.Enabled = false;
-                lblEmailResponse.Text = "Email sent";
+                lblEmailResponse.Text = ResourceText("Contact.Sent");
             }
             catch(SmtpException exc)
             {
-                lblEmailResponse.Text = "Email error - " + exc.Message;
+                lblEmailResponse.Text = ResourceText("Contact.Error") + exc.Message;
             }
             catch (Exception exc)
             {
-                lblEmailResponse.Text = "Email error - " + exc.Message;
+                lblEmailResponse.Text = ResourceText("Contact.Error") + exc.Message;
             }
         }
     }

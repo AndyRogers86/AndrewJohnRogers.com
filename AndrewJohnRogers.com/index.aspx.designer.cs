@@ -11,7 +11,7 @@ namespace AndrewJohnRogers.com
 {
 
 
-    public partial class index
+    public partial class Index
     {
 
         /// <summary>

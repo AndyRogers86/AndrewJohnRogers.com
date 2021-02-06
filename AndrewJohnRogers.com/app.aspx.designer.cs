@@ -11,7 +11,7 @@ namespace AndrewJohnRogers.com
 {
 
 
-    public partial class app
+    public partial class App
     {
 
         /// <summary>
