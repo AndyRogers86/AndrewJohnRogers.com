@@ -1,48 +1,4 @@
-﻿/*RESET*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-
-body {
-    line-height: 1;
-    min-width:850px;
-}
-
-ol, ul {
-    list-style: none;
-}
-
-blockquote, q {
-    quotes: none;
-}
-
-    blockquote:before, blockquote:after, q:before, q:after {
-        content: '';
-        content: none;
-    }
-
-:focus {
-    outline: 0;
-}
-
-ins {
-    text-decoration: none;
-}
-
-del {
-    text-decoration: line-through;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
+﻿@import url(reset.css);
 
 /*MAIN*/
 body {
@@ -51,6 +7,11 @@ body {
     font-family: Helvetica Neue, Helvetica, Arial;
     background: #ffffff;
     color: #000;
+    min-width: 850px;
+}
+
+input[type=text], textarea {
+    font-family: Helvetica Neue, Helvetica, Arial;
 }
 
 a {
@@ -60,10 +21,6 @@ a {
 
 a:hover {
     color: #444;
-}
-
-img {
-    /*width: 100%;*/
 }
 
 header {
@@ -79,7 +36,6 @@ header {
 #logo {
     padding: 0px 60px;
     float: left;
-    /*background: url(../img/logo.png) no-repeat center;*/
     display: block;
     color: black;
 }
@@ -180,10 +136,6 @@ p {
     text-align:justify;
 }
 
-    /*.gridApp > div > img {
-        max-height:450px;
-    }*/
-
 .gridPhoto {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -239,24 +191,31 @@ img{
     max-height:100%;
 }
 
+.appText {
+}
+
 /*MEDIA QUERY*/
-@media only screen and (orientation: portrait) {
+@media only screen and (orientation: portrait), (max-width : 1000px) {
     header {
-        position: absolute;
+        padding-bottom: 20px;
     }
 
     body {
-        font-size:1.5em;
+        font-size: 1.5em;
     }
 
     h2 {
-        margin-bottom:20px;
+        margin-bottom: 20px;
     }
 
         h2 > a > img {
             height: 30px;
             width: 30px;
         }
+
+    p {
+        font-size: 1em;
+    }
 
     #menu-icon {
         display: inline-block;
@@ -266,39 +225,39 @@ img{
         padding: 30px 50px;
     }
 
-    header > nav ul, nav:active ul {
-        display: none;
-        position: absolute;
-        padding: 20px;
-        background: #fff;
-        border: 5px solid black;
-        right: 50px;
-        top: 70px;
-        width: 50%;
-        border-radius: 4px 0 4px 4px;
-    }
+        header > nav ul, nav:active ul {
+            display: none;
+            position: absolute;
+            padding: 20px;
+            background: #fff;
+            border: 5px solid black;
+            right: 50px;
+            top: 70px;
+            width: 50%;
+            border-radius: 4px 0 4px 4px;
+        }
 
-    nav li {
-        text-align: center;
-        width: 100%;
-        padding: 10px 0;
-        margin: 0;
-    }
+        nav li {
+            text-align: center;
+            width: 100%;
+            padding: 10px 0;
+            margin: 0;
+        }
 
-    nav:hover ul {
-        display: block;
-    }
+        nav:hover ul {
+            display: block;
+        }
 
     footer > nav > ul {
         list-style: none;
     }
 
-    footer > nav > ul> li {
-        display: inline-block;
-        float: left;
-        padding: 10px;
-        width:initial;
-    }
+        footer > nav > ul > li {
+            display: inline-block;
+            float: left;
+            padding: 10px;
+            width: initial;
+        }
 
     .grid {
         display: grid;
@@ -328,9 +287,9 @@ img{
         grid-column: span 2;
     }
 
-    .grid-item-mobile-show > img {
-        margin:auto;
-    }
+        .grid-item-mobile-show > img {
+            margin: auto;
+        }
 
     .grid-item-mobile-hide {
         display: none;
@@ -339,3 +298,8 @@ img{
     .grid-item--2-span {
         grid-column: 1;
     }
+
+    input[type=submit] {
+        padding: 1em;
+    }
+}
