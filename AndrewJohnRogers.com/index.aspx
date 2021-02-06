@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Andrew John Rogers" Language="C#" MasterPageFile="~/MasterPages/Main.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="AndrewJohnRogers.com.index" %>
+﻿<%@ Page Title="Andrew John Rogers" Language="C#" MasterPageFile="~/MasterPages/Main.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="AndrewJohnRogers.com.index" culture="auto" meta:resourcekey="PageResource1" uiculture="auto" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -11,13 +11,13 @@
 
             <div class="grid-item">
                 <h1>
-                    Professional Full Stack .Net Developer
+                    <asp:Label ID="lblTitle1" runat="server" Text="Professional Full Stack .Net Developer" meta:resourcekey="lblTitle1Resource1"></asp:Label>                    
                 </h1>
                 <h1>
-                    Amateur Photographer
+                    <asp:Label ID="lblTitle2" runat="server" Text="Amateur Photographer" meta:resourcekey="lblTitle2Resource1"></asp:Label>          
                 </h1>
                 <h1>
-                    Watch Collector
+                    <asp:Label ID="lblTitle3" runat="server" Text="Watch Collector" meta:resourcekey="lblTitle3Resource1"></asp:Label>          
                 </h1>
             </div>
         </div>        

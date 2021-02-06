@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Andrew John Rogers - Photography" Language="C#" MasterPageFile="~/MasterPages/Main.Master" AutoEventWireup="true" CodeBehind="photo.aspx.cs" Inherits="AndrewJohnRogers.com.photo" %>
+﻿<%@ Page Title="Andrew John Rogers - Photography" Language="C#" MasterPageFile="~/MasterPages/Main.Master" AutoEventWireup="true" CodeBehind="photo.aspx.cs" Inherits="AndrewJohnRogers.com.photo" culture="auto" meta:resourcekey="PageResource1" uiculture="auto" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

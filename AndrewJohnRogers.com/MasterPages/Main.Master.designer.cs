@@ -33,15 +33,6 @@ namespace AndrewJohnRogers.com.MasterPages
         protected global::System.Web.UI.WebControls.HyperLink logo;
 
         /// <summary>
-        /// hypHome control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hypHome;
-
-        /// <summary>
         /// hypApps control.
         /// </summary>
         /// <remarks>

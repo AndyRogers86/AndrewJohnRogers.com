@@ -180,6 +180,81 @@
     <Folder Include="lib\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\photo.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\index.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\app.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\App_LocalResources\Main.Master.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\contact.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\App_LocalResources\Main.Master.fr.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\index.aspx.fr.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\app.aspx.fr.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\photo.aspx.fr.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\contact.aspx.fr.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\App_LocalResources\Main.Master.es.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\index.aspx.es.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\app.aspx.es.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\contact.aspx.es.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\photo.aspx.es.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\App_LocalResources\Main.Master.nl.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\index.aspx.nl.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\photo.aspx.nl.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\contact.aspx.nl.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\app.aspx.nl.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\App_LocalResources\Main.Master.ja.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\app.aspx.ja.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\contact.aspx.ja.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\index.aspx.ja.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\photo.aspx.ja.resx" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
