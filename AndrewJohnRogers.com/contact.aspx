@@ -49,16 +49,16 @@
         
             <div class="grid-item--2-span">
                 <div class="error">
-                    <asp:RequiredFieldValidator ID="rfvName" runat="server" ControlToValidate="txtName" CssClass="error"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="rfvName" runat="server" ControlToValidate="txtName" CssClass="error" Display="Dynamic"></asp:RequiredFieldValidator>
                 </div>
                 <div class="error">
-                    <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ControlToValidate="txtEmail" CssClass="error"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ControlToValidate="txtEmail" CssClass="error" Display="Dynamic"></asp:RequiredFieldValidator>
                 </div>
                 <div class="error">
-                    <asp:RequiredFieldValidator ID="rfvSubject" runat="server" ControlToValidate="txtSubject" CssClass="error"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="rfvSubject" runat="server" ControlToValidate="txtSubject" CssClass="error" Display="Dynamic"></asp:RequiredFieldValidator>
                 </div>
                 <div class="error">
-                    <asp:RequiredFieldValidator ID="rfvMessage" runat="server" ControlToValidate="txtMessage" CssClass="error"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="rfvMessage" runat="server" ControlToValidate="txtMessage" CssClass="error" Display="Dynamic"></asp:RequiredFieldValidator>
                 </div>
                 <div  class="error">
                     <asp:Label ID="lblEmailResponse" runat="server" CssClass="error" meta:resourcekey="lblEmailResponseResource1"></asp:Label>
