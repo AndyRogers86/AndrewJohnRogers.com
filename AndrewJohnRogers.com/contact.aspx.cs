@@ -14,31 +14,46 @@ namespace AndrewJohnRogers.com
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Page.IsPostBack)
+            {
+                rfvName.ErrorMessage = ResourceText("Contact.NoName");
+                rfvEmail.ErrorMessage = ResourceText("Contact.NoEmail");
+                rfvSubject.ErrorMessage = ResourceText("Contact.NoSubject");
+                rfvMessage.ErrorMessage = ResourceText("Contact.NoMessage");
 
+                ValidationSettings.UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
+            }
         }
 
         protected void btnSend_Click(object sender, EventArgs e)
         {
             try
             {
+                List<string> errors = new List<string>();
+
                 if (txtName.Text == string.Empty)
                 {
-                    throw new Exception(ResourceText("Contact.NoName"));
+                    errors.Add(ResourceText("Contact.NoName"));
                 }
 
                 if (txtEmail.Text == string.Empty)
                 {
-                    throw new Exception(ResourceText("Contact.NoEmail"));
+                    errors.Add(ResourceText("Contact.NoEmail"));
                 }
 
                 if (txtSubject.Text == string.Empty)
                 {
-                    throw new Exception(ResourceText("Contact.NoSubject"));
+                    errors.Add(ResourceText("Contact.NoSubject"));
                 }
 
                 if (txtMessage.Text == string.Empty)
                 {
-                    throw new Exception(ResourceText("Contact.NoMessage"));
+                    errors.Add(ResourceText("Contact.NoMessage"));
+                }
+
+                if (errors.Count != 0)
+                {
+                    throw new Exception(string.Join(", ", errors));
                 }
 
                 MailMessage emailToSend = new MailMessage();

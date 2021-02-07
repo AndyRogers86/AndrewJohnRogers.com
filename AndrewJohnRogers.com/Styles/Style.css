@@ -123,6 +123,10 @@ p {
     margin-bottom: 20px;
 }
 
+.error {
+    color:red;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 33% auto;

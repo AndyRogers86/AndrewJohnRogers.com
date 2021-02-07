@@ -44,7 +44,19 @@
             </div>
         
             <div class="grid-item">
-                <asp:Label ID="lblEmailResponse" runat="server" ForeColor="Red" meta:resourcekey="lblEmailResponseResource1"></asp:Label>
+                <div>
+                    <asp:RequiredFieldValidator ID="rfvName" runat="server" ControlToValidate="txtName" CssClass="error"></asp:RequiredFieldValidator>
+                </div>
+                <div>
+                    <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ControlToValidate="txtEmail" CssClass="error"></asp:RequiredFieldValidator>
+                </div>
+                <div>
+                    <asp:RequiredFieldValidator ID="rfvSubject" runat="server" ControlToValidate="txtSubject" CssClass="error"></asp:RequiredFieldValidator>
+                </div>
+                <div>
+                    <asp:RequiredFieldValidator ID="rfvMessage" runat="server" ControlToValidate="txtMessage" CssClass="error"></asp:RequiredFieldValidator>
+                </div>
+                <asp:Label ID="lblEmailResponse" runat="server" CssClass="error" meta:resourcekey="lblEmailResponseResource1"></asp:Label>
             </div>
 
             <div class="grid-item">
