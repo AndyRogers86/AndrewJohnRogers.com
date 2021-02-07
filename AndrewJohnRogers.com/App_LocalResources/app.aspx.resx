@@ -136,7 +136,7 @@
     <value />
   </data>
   <data name="lblPolerouterAppDesc1Resource1.Text" xml:space="preserve">
-    <value>The idea for this app came to me when I was going around a watch fair. I had found a watch I liked by I was unable to authenticate it as I had no data connection.</value>
+    <value>The idea for this app came to me when I was going around a watch fair. I had found a watch I liked but I was unable to authenticate it as I had no data connection.</value>
   </data>
   <data name="lblPolerouterAppDesc1Resource1.ToolTip" xml:space="preserve">
     <value />

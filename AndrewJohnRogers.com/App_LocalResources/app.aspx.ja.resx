@@ -136,7 +136,7 @@
     <value />
   </data>
   <data name="lblPolerouterAppDesc1Resource1.Text" xml:space="preserve">
-    <value>このアプリのアイデアは、私が時計見本市を回っていたときに思いついたものです。 データ接続がなかったため、気に入った時計を認証できませんでした。</value>
+    <value>このアプリのアイデアは、私が時計見本市を回っていたときに思いついたものです。 気に入った時計を見つけましたが、データ接続がないため認証できませんでした。</value>
   </data>
   <data name="lblPolerouterAppDesc1Resource1.ToolTip" xml:space="preserve">
     <value />

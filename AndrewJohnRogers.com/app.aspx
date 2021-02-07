@@ -37,7 +37,7 @@
 
             <div class="grid-item--4-span">
                 <p>            
-                    <asp:Label ID="lblPolerouterAppDesc1" runat="server" Text="The idea for this app came to me when I was going around a watch fair. I had found a watch I liked by I was unable to authenticate it as I had no data connection." meta:resourcekey="lblPolerouterAppDesc1Resource1"></asp:Label>
+                    <asp:Label ID="lblPolerouterAppDesc1" runat="server" Text="The idea for this app came to me when I was going around a watch fair. I had found a watch I liked but I was unable to authenticate it as I had no data connection." meta:resourcekey="lblPolerouterAppDesc1Resource1"></asp:Label>
                 </p>
 
                 <p>
