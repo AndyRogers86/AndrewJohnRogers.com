@@ -43,12 +43,17 @@ namespace AndrewJohnRogers.com
 
                 MailMessage emailToSend = new MailMessage();
 
-                emailToSend.From = new MailAddress(txtEmail.Text);
+                emailToSend.From = new MailAddress(ConfigurationManager.AppSettings["ToEmailAddress"]);
+                emailToSend.ReplyTo = new MailAddress(txtEmail.Text);
 
                 emailToSend.To.Add(ConfigurationManager.AppSettings["ToEmailAddress"]);
 
                 emailToSend.Subject = txtSubject.Text;
-                emailToSend.Body = txtMessage.Text;
+                emailToSend.Body = "From: " + Environment.NewLine + 
+                                   txtName.Text + Environment.NewLine +
+                                   Environment.NewLine + 
+                                   "Message:" + Environment.NewLine + 
+                                   txtMessage.Text;
                 emailToSend.Priority = MailPriority.Normal;
                 emailToSend.IsBodyHtml = false;
 
@@ -65,11 +70,17 @@ namespace AndrewJohnRogers.com
                     mSmtpClient.Credentials = smptUserInfo;
                 }
 
-                mSmtpClient.EnableSsl = true;
+                mSmtpClient.EnableSsl = Convert.ToBoolean(ConfigurationManager.AppSettings["EmailUseSSL"]);
 
                 mSmtpClient.Send(emailToSend);
 
                 btnSend.Enabled = false;
+
+                txtName.Text = string.Empty;
+                txtEmail.Text = string.Empty;
+                txtSubject.Text = string.Empty;
+                txtMessage.Text = string.Empty;
+
                 lblEmailResponse.Text = ResourceText("Contact.Sent");
             }
             catch(SmtpException exc)
