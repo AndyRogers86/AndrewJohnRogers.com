@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <asp:HyperLink ID="logo" runat="server" ClientIDMode="Static" NavigateUrl="~/index.aspx" meta:resourcekey="logoResource1">
+        <asp:HyperLink ID="logo" runat="server" ClientIDMode="Static" NavigateUrl="~/" meta:resourcekey="logoResource1">
             <h1>
                 AndrewJohnRogers.com
             </h1>
