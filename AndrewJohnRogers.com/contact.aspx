@@ -42,25 +42,27 @@
             <div class="grid-item--2-span">
                 <asp:TextBox ID="txtMessage" runat="server" TextMode="MultiLine" Rows="20" meta:resourcekey="txtMessageResource1"></asp:TextBox>
             </div>
+
+            <div class="grid-item--2-span">
+                <asp:Button ID="btnSend" runat="server" Text="Send" BorderColor="Black" BorderWidth="2px" BackColor="White" BorderStyle="Solid" Font-Size="X-Large" OnClick="btnSend_Click" meta:resourcekey="btnSendResource1" />
+            </div>
         
-            <div class="grid-item">
-                <div>
+            <div class="grid-item--2-span">
+                <div class="error">
                     <asp:RequiredFieldValidator ID="rfvName" runat="server" ControlToValidate="txtName" CssClass="error"></asp:RequiredFieldValidator>
                 </div>
-                <div>
+                <div class="error">
                     <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ControlToValidate="txtEmail" CssClass="error"></asp:RequiredFieldValidator>
                 </div>
-                <div>
+                <div class="error">
                     <asp:RequiredFieldValidator ID="rfvSubject" runat="server" ControlToValidate="txtSubject" CssClass="error"></asp:RequiredFieldValidator>
                 </div>
-                <div>
+                <div class="error">
                     <asp:RequiredFieldValidator ID="rfvMessage" runat="server" ControlToValidate="txtMessage" CssClass="error"></asp:RequiredFieldValidator>
                 </div>
-                <asp:Label ID="lblEmailResponse" runat="server" CssClass="error" meta:resourcekey="lblEmailResponseResource1"></asp:Label>
-            </div>
-
-            <div class="grid-item">
-                <asp:Button ID="btnSend" runat="server" Text="Send" BorderColor="Black" BorderWidth="2px" BackColor="White" BorderStyle="Solid" Font-Size="X-Large" OnClick="btnSend_Click" meta:resourcekey="btnSendResource1" />
+                <div  class="error">
+                    <asp:Label ID="lblEmailResponse" runat="server" CssClass="error" meta:resourcekey="lblEmailResponseResource1"></asp:Label>
+                </div>
             </div>
         </div>
     </section>
