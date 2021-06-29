@@ -12,12 +12,12 @@
             <div class="grid-item">
                 <h1>
                     <asp:HyperLink ID="hypApps" runat="server" NavigateUrl="~/App.aspx">
-                        <asp:Label ID="lblTitle1" runat="server" Text="Professional Full Stack .Net Developer" meta:resourcekey="lblTitle1Resource1"></asp:Label>                    
+                        <asp:Label ID="lblTitle1" runat="server" Text="Full Stack .Net Developer" meta:resourcekey="lblTitle1Resource1"></asp:Label>                    
                     </asp:HyperLink>
                 </h1>
                 <h1>
                     <asp:HyperLink ID="hypPhotos" runat="server" NavigateUrl="~/Photo.aspx">
-                        <asp:Label ID="lblTitle2" runat="server" Text="Amateur Photographer" meta:resourcekey="lblTitle2Resource1"></asp:Label>          
+                        <asp:Label ID="lblTitle2" runat="server" Text="Photographer" meta:resourcekey="lblTitle2Resource1"></asp:Label>          
                     </asp:HyperLink>
                 </h1>
                 <h1>
