@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lblTitle1Resource1.Text" xml:space="preserve">
-    <value>Professionnelle Complète Stack .Net Developer</value>
+    <value>Complète Stack .Net Developer</value>
   </data>
   <data name="lblTitle1Resource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblTitle2Resource1.Text" xml:space="preserve">
-    <value>Photographe Amateur</value>
+    <value>Photographe</value>
   </data>
   <data name="lblTitle2Resource1.ToolTip" xml:space="preserve">
     <value />
