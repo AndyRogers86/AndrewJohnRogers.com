@@ -62,7 +62,7 @@
                     </asp:HyperLink>
                 </li>
                 <li>
-                    <asp:HyperLink ID="hypInsta" runat="server" NavigateUrl="https://www.instagram.com/andyr.uk/" Target="_blank" ToolTip="Instagram" meta:resourcekey="hypInstaResource1">
+                    <asp:HyperLink ID="hypInsta" runat="server" NavigateUrl="https://www.instagram.com/andy_r_uk/" Target="_blank" ToolTip="Instagram" meta:resourcekey="hypInstaResource1">
                         <asp:Image ID="imgInsta" runat="server" ImageUrl="~/img/insta.png" meta:resourcekey="imgInstaResource1" />                    
                     </asp:HyperLink>
                 </li>
